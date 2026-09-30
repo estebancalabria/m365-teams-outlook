@@ -1,202 +1,672 @@
-# LAB 3 — Work with Files in Teams and SharePoint
+# LAB — Teams, SharePoint and OneDrive File Storage
+
+<br>
 
 ## Objective
 
-In this lab, you will learn how to work with files stored in a Microsoft Teams team.
+<br>
+
+In this lab, you will learn how files are stored and shared across Microsoft Teams, SharePoint, and OneDrive.
+
+<br>
 
 You will learn how to:
 
-* Open a team and a channel in Microsoft Teams.
-* Find files shared in a channel.
-* Upload a file to a channel.
-* Open a file from Teams.
-* Open the same file in SharePoint.
-* Understand that Teams and SharePoint provide access to the same files.
+<br>
+
+* Upload files to a Teams channel.
+* Identify where channel files are stored in SharePoint.
+* Understand the relationship between Teams channels and SharePoint folders.
+* Share files from OneDrive.
+* Compare files stored in OneDrive and files stored in SharePoint.
+* Identify the actual storage location of a file by examining its URL.
+* Explore file version history.
+* Understand how updates affect shared files.
+
+<br>
 
 ---
+
+<br>
 
 ## Scenario
 
-Your team is working on a project.
+<br>
 
-The project documents need to be available to everyone who is part of the team.
+Your team is collaborating on a project using Microsoft Teams.
 
-You will upload a document to a Teams channel and then access the same document through SharePoint.
+<br>
+
+The team needs to understand:
+
+<br>
+
+* Where Team files are stored.
+* How Teams uses SharePoint for channel documents.
+* How OneDrive differs from SharePoint storage.
+* How version history works when files are updated after being shared.
+
+<br>
 
 ---
 
-# Step 1 — Open Microsoft Teams
+<br>
+
+# Part 1 — Explore the Team Structure
+
+<br>
+
+## Step 1 — Open Microsoft Teams
+
+<br>
 
 1. Open Microsoft Teams.
-
+<br>
 2. Sign in with your Microsoft 365 account if required.
-
-3. In the left navigation menu, select **Teams**.
+<br>
+3. Select **Teams** from the navigation menu.
+<br>
 
 ---
 
-# Step 2 — Open the project team
+<br>
 
-1. Locate the team provided by your instructor.
+## Step 2 — Open the Team
 
-2. Select the team to expand it.
+<br>
 
-3. You will see one or more channels.
-
-4. Select the channel provided by your instructor.
+1. Locate the Team assigned by your instructor.
+<br>
+2. Expand the Team.
+<br>
+3. Review the available channels.
+<br>
 
 For example:
 
-**General**
+<br>
+
+```text
+General
+Marketing
+Finance
+```
+
+<br>
 
 ---
 
-# Step 3 — Open the channel files
+<br>
 
-1. At the top of the channel, look for the **Files** or **Shared** tab, depending on your Teams interface.
+## Step 3 — Open the Shared Files Area
 
-2. Select it.
+<br>
 
-You will see the files available in this channel.
+1. Select the **General** channel.
+<br>
+2. Open the **Shared** or **Files** tab.
+<br>
+3. Review the existing files.
+<br>
 
 ---
 
-# Step 4 — Upload a file
+<br>
 
-Your instructor will provide a file for this exercise.
+## Step 4 — Upload a File From Your Computer
+
+<br>
 
 1. Select **Upload**.
-
+<br>
 2. Select **Files**.
+<br>
+3. Choose a file from your local computer.
+<br>
+4. Upload the file.
+<br>
+5. Wait for the upload to complete.
+<br>
 
-3. Locate the file provided by your instructor.
+Record the file name.
 
-4. Select **Open**.
-
-5. Wait for the upload to finish.
-
-The file should now appear in the channel.
+<br>
 
 ---
 
-# Step 5 — Open the file from Teams
+<br>
 
-1. Locate the file you just uploaded.
+## Step 5 — Open the SharePoint Location
 
-2. Select the file name.
+<br>
 
-3. The file will open in Microsoft 365.
+1. Remain in the channel.
+<br>
+2. Open the **Shared** or **Files** tab.
+<br>
+3. Select **Open in SharePoint**.
+<br>
 
-Depending on the file type, it may open in Word, Excel, or PowerPoint.
+A SharePoint site will open.
 
-4. Make a small change to the document.
+<br>
 
-For example, add:
+---
+
+<br>
+
+## Step 6 — Locate the Uploaded File
+
+<br>
+
+1. Open the **Documents** library.
+<br>
+2. Locate the **General** folder.
+<br>
+3. Open the folder.
+<br>
+4. Find the file that you uploaded from Teams.
+<br>
+
+Observe that the uploaded file exists in:
+
+<br>
 
 ```text
-Updated from Microsoft Teams
+Documents
+└── General
 ```
 
-5. Save the document if required.
+<br>
 
 ---
 
-# Step 6 — Open the file location in SharePoint
+<br>
 
-Now you will open the location where the team's files are stored.
+## Step 7 — Understand the Structure
 
-1. Return to the channel.
+<br>
 
-2. Open the channel's **Files** or **Shared** section.
+Observe the relationship between Teams and SharePoint.
 
-3. Look for an option such as **Open in SharePoint**.
+<br>
 
-4. Select **Open in SharePoint**.
+Example:
 
-A SharePoint page will open in your browser.
-
----
-
-# Step 7 — Find the same file in SharePoint
-
-1. Look at the files displayed in SharePoint.
-
-2. Locate the file you uploaded from Teams.
-
-3. Select the file.
-
-4. Open it.
-
-You should see the same document you previously opened from Teams.
-
----
-
-# Step 8 — Modify the file from SharePoint
-
-1. Make another small change to the document.
-
-For example, add:
+<br>
 
 ```text
-Updated from SharePoint
+Team
+├── General
+├── Marketing
+└── Finance
 ```
 
-2. Save the document if required.
+<br>
+
+SharePoint:
+
+<br>
+
+```text
+Documents
+├── General
+├── Marketing
+└── Finance
+```
+
+<br>
+
+Standard Teams channels are typically represented as folders inside the SharePoint Documents library.
+
+<br>
 
 ---
 
-# Step 9 — Return to Teams
+<br>
+
+## Verification 1
+
+<br>
+
+Answer the following questions:
+
+<br>
+
+* Which channel did you upload the file to?
+* Which SharePoint folder contains the file?
+* Do the channel name and folder name match?
+* Is the file visible in both Teams and SharePoint?
+
+<br>
+
+---
+
+<br>
+
+# Part 2 — Create and Share a File from OneDrive
+
+<br>
+
+## Step 8 — Open OneDrive
+
+<br>
+
+1. Open OneDrive.
+<br>
+2. Select **New**.
+<br>
+3. Create a new Word document.
+<br>
+
+Name the document:
+
+<br>
+
+```text
+Lab Version Test.docx
+```
+
+<br>
+
+---
+
+<br>
+
+## Step 9 — Add Initial Content
+
+<br>
+
+Add the following text:
+
+<br>
+
+```text
+Version 1
+Created during the lab.
+```
+
+<br>
+
+Save the document.
+
+<br>
+
+---
+
+<br>
+
+## Step 10 — Share the File in Teams
+
+<br>
 
 1. Return to Microsoft Teams.
-
-2. Open the same channel.
-
-3. Open the **Files** or **Shared** section.
-
-4. Open the document again.
-
-5. Verify that you can see the changes you made from SharePoint.
+<br>
+2. Open the **General** channel.
+<br>
+3. Select **Posts**.
+<br>
+4. Create a new post.
+<br>
+5. Attach the file from **OneDrive**.
+<br>
+6. Publish the post.
+<br>
 
 ---
 
-# Step 10 — Understand the relationship
+<br>
 
-You have accessed the same file from two different applications:
+## Step 11 — Identify the File Location
+
+<br>
+
+1. Open the file from the post.
+<br>
+2. Open the file location.
+<br>
+3. Examine the URL.
+<br>
+
+Example:
+
+<br>
 
 ```text
-Microsoft Teams
-       │
-       │
-       ▼
-   Team / Channel
-       │
-       │
-       ▼
-    SharePoint
-       │
-       ▼
-     File
+https://tenant-my.sharepoint.com/...
 ```
 
-Teams provides a convenient place to work with the files associated with a team and its channels.
+<br>
 
-SharePoint provides the underlying file storage and additional file-management capabilities.
+Observe that the URL contains:
 
-You are not creating two different files.
+<br>
 
-You are accessing the **same file** from Teams and SharePoint.
+```text
+-my.sharepoint.com
+```
+
+<br>
+
+This indicates that the file is stored in OneDrive.
+
+<br>
 
 ---
 
-## Lab completed
+<br>
+
+## Verification 2
+
+<br>
+
+Answer the following questions:
+
+<br>
+
+* Was the file uploaded from OneDrive or from your local computer?
+* Is the file stored in OneDrive?
+* Is the file stored in the Team's SharePoint Documents library?
+* What evidence supports your answer?
+
+<br>
+
+---
+
+<br>
+
+# Part 3 — Update the Shared File
+
+<br>
+
+## Step 12 — Modify the Document
+
+<br>
+
+Reopen the Word document.
+
+<br>
+
+Add:
+
+<br>
+
+```text
+Version 2
+Added after sharing.
+```
+
+<br>
+
+Save the document.
+
+<br>
+
+---
+
+<br>
+
+## Step 13 — Reopen the Link from Teams
+
+<br>
+
+1. Return to the channel post.
+<br>
+2. Open the same document again using the original link.
+<br>
+
+Observe the content.
+
+<br>
+
+You should now see:
+
+<br>
+
+```text
+Version 1
+Created during the lab.
+
+Version 2
+Added after sharing.
+```
+
+<br>
+
+---
+
+<br>
+
+## Verification 3
+
+<br>
+
+Answer the following questions:
+
+<br>
+
+* Did the Teams message automatically update to the latest version?
+* Does the original link open the current file?
+* Is a separate copy created when the file is modified?
+
+<br>
+
+---
+
+<br>
+
+# Part 4 — Explore Version History
+
+<br>
+
+## Step 14 — Open Version History
+
+<br>
+
+1. Return to OneDrive.
+<br>
+2. Locate the document.
+<br>
+3. Select the ellipsis (**...**).
+<br>
+4. Select **Version History**.
+<br>
+
+Review the available versions.
+
+<br>
+
+---
+
+<br>
+
+## Step 15 — Review Earlier Versions
+
+<br>
+
+Open the oldest available version.
+
+<br>
+
+Review the content.
+
+<br>
+
+You should find an earlier version that contains:
+
+<br>
+
+```text
+Version 1
+Created during the lab.
+```
+
+<br>
+
+Review the modification date and time associated with the version.
+
+<br>
+
+---
+
+<br>
+
+## Step 16 — Compare Versions
+
+<br>
+
+Compare Version 1 and Version 2.
+
+<br>
+
+Observe:
+
+<br>
+
+* Version number.
+* Date and time.
+* Content changes.
+
+<br>
+
+---
+
+<br>
+
+## Verification 4
+
+<br>
+
+Answer the following questions:
+
+<br>
+
+* Does OneDrive maintain version history?
+* Can you view previous versions of the file?
+* Does the Teams message point to a specific version?
+* Does the Teams message always open the latest version?
+
+<br>
+
+---
+
+<br>
+
+# Key Concepts
+
+<br>
+
+## Files Uploaded from a Local Computer
+
+<br>
+
+```text
+Teams
+    ↓
+Channel
+    ↓
+SharePoint Site
+    ↓
+Documents
+    ↓
+General
+```
+
+<br>
+
+Result:
+
+<br>
+
+✅ File stored in the Team's SharePoint site.
+
+<br>
+
+---
+
+<br>
+
+## Files Shared from OneDrive
+
+<br>
+
+```text
+OneDrive
+    ↓
+Shared Link
+    ↓
+Teams Post
+```
+
+<br>
+
+Result:
+
+<br>
+
+✅ File remains in OneDrive.
+
+<br>
+
+✅ Teams stores a link to the file.
+
+<br>
+
+---
+
+<br>
+
+## Version History
+
+<br>
+
+```text
+Version 1
+      ↓
+Shared in Teams
+      ↓
+Version 2
+      ↓
+Version 3
+```
+
+<br>
+
+The Teams post points to the same file.
+
+<br>
+
+The link always opens the current version.
+
+<br>
+
+Previous versions can be viewed through Version History.
+
+<br>
+
+---
+
+<br>
+
+# Lab Completed
+
+<br>
 
 You have successfully:
 
-* Opened a team and channel in Microsoft Teams.
-* Uploaded a file to the channel.
-* Opened the file from Teams.
-* Opened the same file in SharePoint.
-* Modified the file from SharePoint.
-* Verified the changes from Teams.
+<br>
 
-**Teams and SharePoint work together to provide a collaborative environment for team files.**
+* Explored the relationship between Teams and SharePoint.
+* Uploaded a file from a local computer.
+* Verified where Teams channel files are stored.
+* Identified the relationship between Teams channels and SharePoint folders.
+* Shared a document from OneDrive.
+* Verified the storage location of a shared file.
+* Modified a shared document after publishing it.
+* Explored version history.
+* Compared OneDrive storage and SharePoint storage.
+* Verified how Teams references shared files.
+
+<br>
+
+**Teams, SharePoint, and OneDrive work together to provide file storage, collaboration, sharing, and version management across Microsoft 365.**
