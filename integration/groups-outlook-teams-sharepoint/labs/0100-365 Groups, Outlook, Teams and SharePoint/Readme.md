@@ -29,7 +29,7 @@ Observe the difference between groups that you belong to and groups that are onl
 
 ---
 
-## Part 2 — Explore Teams
+## Part 2 — Explore a Team
 
 * [BROWSER] https://teams.microsoft.com/
     * [LEFT NAVBAR] Teams
@@ -38,7 +38,7 @@ Observe the difference between groups that you belong to and groups that are onl
 Review:
 
 * Team name
-* Channels
+* Available channels
 
 Examples:
 
@@ -49,24 +49,12 @@ Examples:
 Observe:
 
 * Teams are organized into channels.
-* Teams provide chat-based collaboration.
-* A standard Team is backed by a Microsoft 365 Group.
-* A Team may exist even when its Microsoft 365 Group is not easily discoverable from Outlook.
+* A Team can exist even when its Microsoft 365 Group is not easily discoverable from Outlook.
+* Standard Teams are backed by Microsoft 365 Groups.
 
 ---
 
-## Part 3 — Compare Outlook and Teams Communication
-
-### Outlook
-
-* [BROWSER] https://outlook.cloud.microsoft/
-    * [LEFT NAVBAR] Groups
-
-Review:
-
-* Conversations
-
-### Teams
+## Part 3 — Explore Channel Conversations
 
 * [BROWSER] https://teams.microsoft.com/
     * [LEFT NAVBAR] Teams
@@ -76,16 +64,14 @@ Review:
 
 Review:
 
-* Channel conversations
+* Posts
 * Replies
-* Threads
+* Conversations
 
 Observe:
 
-* Outlook uses Conversations.
-* Teams uses Posts.
-* Both provide communication capabilities.
-* They are different communication experiences.
+* Teams provides communication through channel posts.
+* Teams conversations are different from Outlook group experiences.
 
 ---
 
@@ -104,8 +90,8 @@ Review:
 
 Observe:
 
-* Teams exposes documents directly inside the channel.
-* Team files are shared with the team members.
+* Files are exposed directly inside Teams.
+* Team members collaborate on the same files.
 
 ---
 
@@ -122,12 +108,11 @@ Review:
 
 * SharePoint site
 * Document library
-* Folders
-* Shared files
+* Channel folders
 
 Observe:
 
-* Teams channel files are stored in SharePoint.
+* Teams files are stored in SharePoint.
 * Teams uses SharePoint as its document repository.
 
 ---
@@ -151,7 +136,7 @@ Example:
 
 Observe:
 
-* Channels can have their own email address.
+* Channels can have their own email addresses.
 * A Channel email address is different from a Microsoft 365 Group email address.
 
 ---
@@ -162,16 +147,20 @@ Review the following concepts:
 
 ### Microsoft 365 Group
 
+Contains:
+
 * Outlook
 * SharePoint
 * Teams (optional)
 
 Observe:
 
-* Every Microsoft 365 Group has SharePoint.
-* A Microsoft 365 Group may or may not have Teams.
+* Every Microsoft 365 Group has a SharePoint site.
+* A Microsoft 365 Group may or may not have a Team.
 
 ### Standard Team
+
+Includes:
 
 * Microsoft 365 Group
 * SharePoint Site
@@ -180,7 +169,6 @@ Observe:
 
 * Every standard Team has a Microsoft 365 Group.
 * Every standard Team has a SharePoint Site.
-* Team membership is based on Microsoft 365 Group membership.
 
 ---
 
@@ -188,9 +176,9 @@ Observe:
 
 Review the following scenario:
 
-* A user can see a Team.
+A user can see a Team.
 
-The same user may not be able to discover:
+The same user may not be able to easily discover:
 
 * The Microsoft 365 Group.
 * The Group email address.
@@ -217,7 +205,7 @@ Observe:
 * Team membership is based on Microsoft 365 Group membership.
 * Teams channel files are stored in SharePoint.
 * Teams uses SharePoint as its document repository.
-* Outlook Conversations and Teams Posts are different communication experiences.
+* Outlook group experiences and Teams channel experiences are different.
 * Group Email and Channel Email are different concepts.
 * A Channel Email address can publish content into a Teams channel.
 * A Team may exist even when its Microsoft 365 Group is not easily discoverable from Outlook.
@@ -238,12 +226,12 @@ Observe:
 * Microsoft 365 Group
 * SharePoint Site
 
-### Group Communication
+### Communication Through Groups
 
 * Group Email
-* Outlook Conversations
+* Outlook Group Experience
 
-### Team Communication
+### Communication Through Teams
 
 * Channel Email
 * Teams Posts
