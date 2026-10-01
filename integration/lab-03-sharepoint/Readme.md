@@ -1,4 +1,4 @@
-# LAB 3 — Teams, SharePoint and OneDrive File Storage
+# LAB — Teams, SharePoint and OneDrive File Storage
 
 ## Objective
 
