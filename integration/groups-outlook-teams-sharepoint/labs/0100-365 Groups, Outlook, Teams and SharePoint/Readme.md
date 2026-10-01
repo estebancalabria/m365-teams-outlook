@@ -6,50 +6,24 @@ Understand how Microsoft 365 Groups connect Outlook, Teams and SharePoint.
 
 ---
 
-# Part 1 — Explore Microsoft 365 Groups in Outlook
-
-## Step 1 — Open Outlook
-
-```text
-[BROWSER] → https://outlook.cloud.microsoft/
-```
-
----
-
-## Step 2 — Explore Groups
+## Step 1 — Explore Microsoft 365 Groups in Outlook
 
 ```text
 [BROWSER] → https://outlook.cloud.microsoft/
 → [LEFT NAVBAR] Groups
 ```
 
-Observe:
+Review:
 
 ```text
 My Groups
+Discover Groups
+Conversations
+Files
+Members
 ```
 
-Review the Groups available to your account.
-
----
-
-## Step 3 — Explore Discover Groups
-
-```text
-[BROWSER] → https://outlook.cloud.microsoft/
-→ [LEFT NAVBAR] Groups
-
-[PAGE SECTION] Discover Groups
-```
-
-Observe:
-
-* Public Groups
-* Private Groups
-* Join
-* Request to Join
-
-Notice that groups may be visible even when you are not a member.
+Observe the difference between groups you belong to and groups that are merely discoverable.
 
 ---
 
