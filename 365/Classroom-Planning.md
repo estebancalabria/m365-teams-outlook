@@ -143,7 +143,33 @@ Temas del Kahoot:
 
 ---
 
-# 11. Outlook y los adjuntos modernos
+# 11. Reuniones de Teams y almacenamiento de grabaciones
+**Duración: 10 min**
+
+## Demostración
+
+- Mostrar cómo se crea una reunión de Teams.
+- Identificar el chat asociado a la reunión.
+- Explicar dónde aparecen los archivos compartidos.
+- Mostrar dónde se encuentra la grabación después de finalizar la reunión.
+
+## ¿Dónde se guarda la grabación?
+
+- **Reunión normal:** la grabación se almacena en OneDrive, dentro de la carpeta `Recordings`.
+- **Reunión de canal:** la grabación se almacena en la biblioteca de documentos de SharePoint asociada al Team, dentro de la carpeta `Recordings`.
+
+## Concepto clave
+
+> Teams proporciona la experiencia de reunión, pero las grabaciones se almacenan en OneDrive o SharePoint según el tipo de reunión.
+
+## Conexión con Copilot
+
+- La grabación, la transcripción y el chat forman parte del contexto de la reunión.
+- Copilot trabaja con ese contenido únicamente cuando el usuario tiene los permisos correspondientes.
+  
+---
+
+# 12. Outlook y los adjuntos modernos
 **Duración: 10 min**
 
 - Adjuntos tradicionales
@@ -153,7 +179,7 @@ Temas del Kahoot:
 
 ---
 
-# 12. Organización de la información para Copilot
+# 13. Organización de la información para Copilot
 **Duración: 15 min**
 
 ## Conceptos
@@ -171,7 +197,7 @@ Temas del Kahoot:
 
 ---
 
-# 13. Cierre: Copilot en el ecosistema Microsoft 365
+# 14. Cierre: Copilot en el ecosistema Microsoft 365
 **Duración: 10 min**
 
 - Qué información puede utilizar
